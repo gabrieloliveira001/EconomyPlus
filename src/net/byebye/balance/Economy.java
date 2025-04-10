@@ -12,7 +12,7 @@ import java.util.UUID;
 
 public class Economy {
 
-    private final HashMap<UUID, Double> playerSaldos = new HashMap<>();
+    public static final HashMap<UUID, Double> playerSaldos = new HashMap<>();
     private final File balancesFile = new File(Main.m.getDataFolder(), "balances.yml");
     private final FileConfiguration balancesConfig = YamlConfiguration.loadConfiguration(balancesFile);
 
@@ -48,7 +48,7 @@ public class Economy {
     }
 
     // Salva o saldo do jogador na balances.yml
-    private void saveSaldo(OfflinePlayer player) {
+    public void saveSaldo(OfflinePlayer player) {
         String key = player.getName() + "." + player.getUniqueId();
         balancesConfig.set(key, getSaldo(player));
         try {
@@ -59,7 +59,7 @@ public class Economy {
     }
 
     // Carrega todos os saldos do balances.yml
-    private void loadSaldos() {
+    public void loadSaldos() {
         for (String playerName : balancesConfig.getKeys(false)) {
             ConfigurationSection section = balancesConfig.getConfigurationSection(playerName);
             if (section == null) continue;

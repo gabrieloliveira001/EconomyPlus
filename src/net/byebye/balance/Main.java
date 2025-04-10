@@ -33,7 +33,7 @@ public class Main extends JavaPlugin {
         m.getCommand("addsaldo").setExecutor(new Commands());
         m.getCommand("setsaldo").setExecutor(new Commands());
         this.economy = new Economy();
-        saveDefaultConfig();
+        BalanceAPI.init(this.economy);
     }
 
     public Economy getEconomy() {

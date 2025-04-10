@@ -2,7 +2,7 @@ name: Economy
 main: net.byebye.balance.Main
 version: 1.0
 author: gabriel
-description: Um plugin de economia para o servidor do hector
+description: Um plugin de economia
 api-version: 1.21.4
 
 commands:
@@ -21,9 +21,7 @@ commands:
   versaldo:
     description:
     permission: op
-  teste:
-    description:
-    permission: op
+
     
     
   

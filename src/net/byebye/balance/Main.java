@@ -32,8 +32,6 @@ public class Main extends JavaPlugin {
         m.getCommand("versaldo").setExecutor(new Commands());
         m.getCommand("addsaldo").setExecutor(new Commands());
         m.getCommand("setsaldo").setExecutor(new Commands());
-        m.getCommand("teste" +
-                "").setExecutor(new Commands());
         saveDefaultConfig();
     }
 

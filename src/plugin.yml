@@ -1,0 +1,30 @@
+name: Economy
+main: net.byebye.balance.Main
+version: 1.0
+author: gabriel
+description: Um plugin de economia para o servidor do hector
+api-version: 1.21.4
+
+commands:
+  pagar:
+    description:
+    permission:
+  saldo:
+    description:
+    permission:
+  addsaldo:
+    description:
+    permission: op
+  setsaldo:
+    description:
+    permission: op
+  versaldo:
+    description:
+    permission: op
+  teste:
+    description:
+    permission: op
+    
+    
+  
+

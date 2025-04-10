@@ -1,4 +1,4 @@
-Plugin de Economy com os comandos:
+Plugin de Economy com os seguintes comandos:
 
 /saldo, /setsaldo, /addsaldo, /versaldo, /pagar.
 

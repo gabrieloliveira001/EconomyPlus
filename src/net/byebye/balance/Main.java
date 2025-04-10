@@ -32,7 +32,12 @@ public class Main extends JavaPlugin {
         m.getCommand("versaldo").setExecutor(new Commands());
         m.getCommand("addsaldo").setExecutor(new Commands());
         m.getCommand("setsaldo").setExecutor(new Commands());
+        this.economy = new Economy();
         saveDefaultConfig();
+    }
+
+    public Economy getEconomy() {
+        return this.economy;
     }
 
     @Override

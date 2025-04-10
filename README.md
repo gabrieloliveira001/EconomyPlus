@@ -5,7 +5,9 @@ Plugin de Economy com os seguintes comandos:
 /pagar:
 
 ![img_1.png](img_1.png)
-![img.png](img.png)
+
+![img_7.png](img_7.png)
+
 ![img_2.png](img_2.png)
 
 saldo:

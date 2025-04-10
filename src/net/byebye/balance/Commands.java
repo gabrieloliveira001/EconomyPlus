@@ -40,7 +40,7 @@ public class Commands implements CommandExecutor {
         meta2.setOwningPlayer(target);
         meta2.setDisplayName("§e" + target.getName());
         meta2.setLore(Collections.singletonList(
-                "§7Você deseja pagar §aR$" + valor + " §7para esse jogador?."
+                "§7Você deseja pagar §aR$" + valor + " §7para esse jogador?"
         ));
         item2.setItemMeta(meta2);
 
